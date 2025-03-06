@@ -2,10 +2,10 @@
 # "Cannot run program 'python3': CreateProcess error=2, The system cannot find the file specified" indicates that Spark is unable to find Python3 on your system.
 
 _Step1_: Check the environmental variables and set the 2 new system variable those points to the python.exe files.\
-		```Variable name: PYSPARK_PYTHON```
-		```Variable path: C:\Users\USER_NAME\anaconda3\python.exe``` (where the python.exe file exists)
-		```Variable name: PYSPARK_DRIVER_PYTHON```
-		```Variable path: C:\Users\USER_NAME\anaconda3\python.exe``` (where the python.exe file exists)
+		```Variable name: PYSPARK_PYTHON```\
+		```Variable path: C:\Users\USER_NAME\anaconda3\python.exe``` (where the python.exe file exists)\
+		```Variable name: PYSPARK_DRIVER_PYTHON```\
+		```Variable path: C:\Users\USER_NAME\anaconda3\python.exe``` (where the python.exe file exists)\
 
 _Step 2_: Restart the kernal and try running it. If the issue persists, then go to step 3.
 
