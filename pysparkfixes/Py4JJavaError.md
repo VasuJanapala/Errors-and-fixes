@@ -11,7 +11,8 @@ _Step 2_: Restart the kernal and try running it. If the issue persists, then go 
 
 _Step 3_: Open/run the command prompt with the admin, as we have to link if there is any missing pieces in the process.\
 		
-	  Enter the following commands:	\
+  Enter the following commands:
+  
 	  ```echo %PYSPARK_PYTHON%``` --------------> This should return the path specified in the environmental variables\
 	  ```echo %PYSPARK_DRIVER_PYTHON%``` -------> This should return the path specified in the environmental variables\
 	  ```where python```	--------------------> This should return the path where the python is installed and saved\
